@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="M.A.R.S" />
+        <title> The Blues </title>
+
+        <style>
+            body {
+                background-image: url("Image/Stadium/Stamford.jpg");
+                max-width: 100%;
+                height: auto;
+                width: auto;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            /*Modification MainBody*/
+            .MainBody {
+                background-color: rgb(28,46,105);
+            }
+
+            .UpperPart{
+                background-color: rgb(4,4,64);
+            }
+
+            /*Modification MainTitle*/
+            .MainTitle {
+                /*Words*/
+                font-size: 32px;
+                font-family: Bahnschrift;
+                text-transform: uppercase;
+                font-weight: bold;
+                text-align: center;
+                color: rgb(255,255,255);
+            }
+
+            /*Modification MenusButton*/
+            .MenusButton {
+                /*Modification Button*/
+                display: flex;
+                justify-content: center;
+            }
+
+            /*Modification ButtonMatch*/
+            .Button {
+                /*Modification Information*/
+                font-size: 14px;
+                font-family: Bahnschrift;
+                text-transform: uppercase;
+                font-weight: bold;
+                text-align: center;
+                color: rgb(255,255,255);
+
+                /*Modification Button*/
+                width: 110px; height: 25px;
+                border-radius: 8px;
+                border: 2px solid;
+                margin: auto;
+                background-color: rgb(4,4,64);
+
+                /*Action Button*/
+                cursor: pointer;
+                transition-duration: 0.5s;
+                float:left;
+            }
+
+            .Match:hover {
+                color: rgb(4,4,64);
+                background-color: rgb(255,255,255);
+            }
+
+            .Squad:hover {
+                color: rgb(4,4,64);
+                background-color: rgb(255,255,255);
+            }
+
+            .Stadium:hover {
+                color: rgb(4,4,64);
+                background-color: rgb(255,255,255);
+            }
+
+            .History:hover {
+                color: rgb(4,4,64);
+                background-color: rgb(255,255,255);
+            }
+        </style>
+    </head>
+
+    <body class="MainBody">
+        <div class="UpperPart">
+            <div>
+                <!--Make TitleWeb-->
+                <h1 class="MainTitle"> CHELSEA FOOTBALL CLUB </h1>
+            </div>
+
+            <div class="MenusButton">
+                <!--Make ButtonMatch-->
+                <button class="Button Match" type="button"> Match </button>
+                <!--Make ButtonTeams-->
+                <button class="Button Squad" type="button"> Squad </button>
+                <!--Make ButtonStatistics-->
+                <button class="Button Stadium" type="button"> Stadium </button>
+                <!--Make ButtonHistory-->
+                <button class="Button History" type="button"> History </button>
+            </div>
+        </div>
+    </body>
+</html>

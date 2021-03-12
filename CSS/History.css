@@ -1,0 +1,191 @@
+/*Controla cuerpo*/
+body {
+    background-color: rgb(4,4,64);
+}
+/*Controla cuerpo*/
+.title {
+    background-color: rgb(32,44,106);
+    font-size: 40px;
+    font-family: Bahnschrift;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255,255,255);
+}
+/*Controla subtitulos*/
+.subTitle {
+    background-color: rgb(225,177,0);
+    font-size: 32px;
+    font-family: Bahnschrift;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(4,4,64);
+}
+/*Controla subtitulos 2 Nacionales*/
+.subTitleNat2 {
+    background-color: rgb(20,147,94);
+    font-size: 32px;
+    font-family: Bahnschrift;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(255,255,255);
+    text-align: left;
+}
+/*Controla subtitulos 2 Internacionales*/
+.subTitleInt2 {
+    background-color: rgb(233,0,82);
+    font-size: 32px;
+    font-family: Bahnschrift;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(255,255,255);
+    text-align: left;
+}
+/*Controla caja de botones de opciones*/
+#option {
+    background-color: rgb(225,177,0);
+    display: flex;
+    justify-content: center;
+}
+/*Controla botones de opciones*/
+.optButton {
+    font-size: 14px;
+    font-family: Bahnschrift;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(225,177,0);
+    width: 110px;
+    height: 25px;
+    border-radius: 8px;
+    border: 2px solid;
+    margin: auto;
+    background-color: rgb(4,4,64);
+    cursor: pointer;
+    transition-duration: 0.5s;
+    float: left;
+}
+    /*Controla accion de cambiar color de botones de opciones*/
+    .optButton:hover {
+        color: rgb(225,177,0);
+        background-color: rgb(155,20,22);
+    }
+/*Controla el contenedor de jugador de estadistica*/
+.containerTrophy {
+    position: relative;
+    width: 25%;
+}
+    /*Controla el contorno del torneo pl*/
+    .containerTrophy#pl {
+        color: rgb(225,177,0);
+        background-color: rgb(4,4,64);
+    }
+    /*Controla el contorno del torneo fa*/
+    .containerTrophy#fa {
+        color: rgb(225,177,0);
+        background-color: rgb(4,4,64);
+    }
+    /*Controla el contorno del torneo cc*/
+    .containerTrophy#cc {
+        color: rgb(225,177,0);
+        background-color: rgb(4,4,64);
+    }
+    /*Controla el contorno del torneo cs*/
+    .containerTrophy#cs {
+        color: rgb(225,177,0);
+        background-color: rgb(4,4,64);
+    }
+    /*Controla el contorno del torneo cl*/
+    .containerTrophy#cl {
+        color: rgb(225,177,0);
+        background-color: rgb(4,4,64);
+    }
+    /*Controla el contorno del torneo el*/
+    .containerTrophy#el {
+        color: rgb(225,177,0);
+        background-color: rgb(4,4,64);
+    }
+    /*Controla el contorno del torneo sc*/
+    .containerTrophy#sc {
+        color: rgb(225,177,0);
+        background-color: rgb(4,4,64);
+    }
+    /*Controla el contorno del torneo cw*/
+    .containerTrophy#cw {
+        color: rgb(225,177,0);
+        background-color: rgb(4,4,64);
+    }
+/*Controla la primera imagen contenedor de torneo*/
+.firstImage {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/*Controla la segunda imagen contenedor de torneo nacional*/
+.secondImageNat {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    background-color: rgb(20,147,94);
+}
+/*Controla la segunda imagen contenedor de torneo internacional*/
+.secondImageInt {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    background-color: rgb(233,0,82);
+}
+/*Controla accion del contenedor de torneo nacional*/
+.containerTrophy:hover .secondImageNat {
+    bottom: 0;
+    height: 100%;
+}
+/*Controla accion del contenedor de torneo internacional*/
+.containerTrophy:hover .secondImageInt {
+    bottom: 0;
+    height: 100%;
+}
+/*Controla texto del contenedor de torneo*/
+.text {
+    white-space: nowrap;
+    color: rgb(255,255,255);
+    font-family: Bahnschrift;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+/*Controla alineacion horizontal de caja trophy*/
+.trophy {
+    overflow: hidden;
+}
+/*Controla alineacion horizontal de containerTrophy*/
+.containerTrophy {
+    float: left;
+}
+/*Controla alineacion horizontal de imgShield*/
+#imgShield {
+    float: left;
+}
+/*Controla puntero de optButton*/
+.optButton {
+    cursor: pointer;
+}
+/*Controla alineacion horizontal de sponsor*/
+.sponsor {
+    cursor: pointer;
+}

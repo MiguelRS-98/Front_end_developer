@@ -1,0 +1,119 @@
+/*Controla cuerpo*/
+body {
+    background-color: rgb(4,4,64);
+}
+/*Controla titulo*/
+.title {
+    background-color: rgb(32,44,106);
+    font-size: 40px;
+    font-family: Bahnschrift;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255,255,255);
+}
+/*Controla subtitulos*/
+.subTitle {
+    background-color: rgb(225,177,0);
+    font-size: 32px;
+    font-family: Bahnschrift;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(4,4,64);
+}
+/*Controla titulo*/
+.textLarge {
+    font-size: 14px;
+    font-family: Bahnschrift;
+    text-transform: uppercase;
+    color: rgb(255,255,255);
+}
+/*Controla caja de botones de opciones*/
+#option {
+    background-color: rgb(225,177,0);
+    display: flex;
+    justify-content: center;
+}
+/*Controla botones de opciones*/
+.optButton {
+    font-size: 14px;
+    font-family: Bahnschrift;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(225,177,0);
+    width: 110px;
+    height: 25px;
+    border-radius: 8px;
+    border: 2px solid;
+    margin: auto;
+    background-color: rgb(4,4,64);
+    cursor: pointer;
+    transition-duration: 0.5s;
+    float: left;
+}
+    /*Controla accion de cambiar color de botones de opciones*/
+    .optButton:hover {
+        color: rgb(225,177,0);
+        background-color: rgb(155,20,22);
+    }
+/*Controla el contenedor de partido*/
+.containerMatch {
+    position: relative;
+    width: 25%;
+}
+/*Controla la primera imagen contenedor de partido*/
+.firstImage {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/*Controla la segunda imagen contenedor de partido*/
+.secondImage {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgb(32,44,106);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+/*Controla accion del contenedor de partido*/
+.containerMatch:hover .secondImage {
+    bottom: 0;
+    height: 100%;
+}
+/*Controla texto del contenedor de partido*/
+.text {
+    white-space: nowrap;
+    color: rgb(255,255,255);
+    font-family: Bahnschrift;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+/*Controla alineacion horizontal de imgShield*/
+#imgShield {
+    float: left;
+}
+/*Controla alineacion horizontal de imgShield*/
+#mapStadium {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+/*Controla puntero de optButton*/
+.optButton {
+    cursor: pointer;
+}
+/*Controla puntero de sponsor*/
+.sponsor {
+    cursor: pointer;
+}

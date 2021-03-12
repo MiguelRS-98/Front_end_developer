@@ -1,0 +1,141 @@
+/*Controla cuerpo*/
+body {
+    background-color: rgb(225,177,0);
+}
+/*Controla titulos*/
+.title {
+    background-color: rgb(4,4,64);
+    font-size: 32px;
+    font-family: Bahnschrift;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255,255,255);
+}
+/*Controla subtitulos*/
+.subTitle {
+    background-color: rgb(4,4,64);
+    font-size: 32px;
+    font-family: Bahnschrift;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(225,177,0);
+}
+/*Controla caja de los numeros y escudo*/
+.information {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Controla caja de los numeros y escudo*/
+#infoClub {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Controla numeros del escudo*/
+.number {
+    font-size: 96px;
+    font-family: Bahnschrift;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255,255,255);
+}
+/*Controla el contenedor de jugador de la semana*/
+.containerSpecial {
+    position: relative;
+    width: 25%;
+}
+    /*Controla accion del contenedor de jugador de la semana*/
+    .containerSpecial:hover .secondImage {
+        bottom: 0;
+        height: 100%;
+    }
+/*Controla el contenedor de jugador de estadistica*/
+.containerStatistic {
+    position: relative;
+    width: 25%;
+}
+/*Controla la primera imagen contenedor de jugador*/
+.firstImage {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/*Controla la segunda imagen contenedor de jugador*/
+.secondImage {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgb(255,255,255);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+/*Controla la segunda imagen contenedor de jugador especial*/
+.secondImageSpecial {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgb(225,177,0);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+/*Controla accion del contenedor de jugador de estadistica*/
+.containerStatistic:hover .secondImage {
+    bottom: 0;
+    height: 100%;
+}
+/*Controla accion del contenedor de jugador de estadistica*/
+.containerSpecial:hover .secondImageSpecial {
+    bottom: 0;
+    height: 100%;
+}
+/*Controla texto del contenedor de jugador*/
+.text {
+    white-space: nowrap;
+    color: rgb(4,4,64);
+    font-family: Bahnschrift;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+/*Controla alineacion horizontal de imgShield*/
+#imgShield {
+    float: left;
+}
+/*Controla alineacion horizontal de caja infoClub*/
+#infoClub {
+    overflow: hidden;
+}
+/*Controla alineacion horizontal de number*/
+.number {
+    float: left;
+}
+/*Controla alineacion horizontal de imgShield*/
+#imgShield {
+    float: left;
+}
+}
+/*Controla alineacion horizontal de accept*/
+#accept {
+    cursor: pointer;
+}
+}
+/*Controla alineacion horizontal de sponsor*/
+.sponsor {
+    cursor: pointer;
+}
